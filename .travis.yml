@@ -5,7 +5,7 @@ services:
 
 before_install:
   - docker pull cdsteinkuehler/jessie-quartus-15.1.2
-  - docker run cdsteinkuehler/jessie-quartus-15.1.2 /bin/sh -c "pwd"
+  - docker run cdsteinkuehler/jessie-quartus-15.1.2 /bin/sh -c "quartus_sh"
   - docker ps -a
 
 script:
